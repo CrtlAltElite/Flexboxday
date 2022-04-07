@@ -1,0 +1,28 @@
+img{
+    width:200px;
+}
+
+
+.wrapper{
+  display:flex;
+  background-color: grey;   
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content:space-evenly;
+}
+
+#amazon{
+   flex-shrink: 5;
+}
+
+#adidas{
+    flex-shrink:1;
+}
+
+#apple{
+    flex-shrink:2;
+}
+
+#beats{
+    flex-shrink: 1;
+}
